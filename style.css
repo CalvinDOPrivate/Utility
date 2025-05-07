@@ -1,0 +1,56 @@
+h1, h2 {
+    text-align: center !important;
+    align-self: center;
+    display: inline-block;
+}
+
+h1 {
+    background-color: lightblue;
+    width: fit-content;
+    line-height: 1.6;
+}
+
+h2 {
+    background-color: white;
+    width: fit-content;
+    color: lightblue;
+    padding: 8px 15px;
+    margin: -8px -15px;
+}
+
+#display, #output {
+    background-color: rgb(228, 228, 228);
+    text-align: left;
+    align-self: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    opacity: 0.87;
+}
+
+#output {
+    width: fit-content;
+}
+
+.input-banner {
+    font-weight: bold;
+    background-color: black;
+    padding: 5px 12px;
+    margin: -8px -12px;
+    line-height: 1.6;
+}
+
+
+body {
+    background-image: url(steinkauz.png);
+    text-align: center;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
